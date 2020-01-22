@@ -51,6 +51,8 @@ def add_s(array)
       i + "s"
     elsif idx > 1
       i + "s"
+    else
+      i
     end
   end
 end
