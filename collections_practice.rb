@@ -44,3 +44,12 @@ end
 def sum_array(array)
   array.inject {|num, sum| num + sum}
 end
+
+def add_s(array)
+  arrray.each_with_index.collect do |i, idx|
+    if idx < 1
+      i + "s"
+    elsif idx > 1
+      i + "s"
+    end
+  end
