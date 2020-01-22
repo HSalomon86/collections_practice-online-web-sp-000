@@ -40,3 +40,9 @@ end
 def find_a(array)
   return array.select{|a| a[0] == "a"}
 end
+
+def sum_array(array)
+  total = 0
+  array.each {|num| total += num}
+  total
+end
