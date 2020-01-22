@@ -36,3 +36,6 @@ def kesha_maker(array)
   end
 new_arr
 end
+
+def find_a(array)
+  return array.select{|a| a[0] == "a"}
