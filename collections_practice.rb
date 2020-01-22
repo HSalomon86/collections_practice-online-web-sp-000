@@ -7,6 +7,6 @@ def sort_array_desc(array)
     b<=>a
   end
 end
-sort_array_char_count(array)
+def sort_array_char_count(array)
   x = array.collect {|e| e.length}.sort
 end
